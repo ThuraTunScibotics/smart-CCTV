@@ -8,9 +8,9 @@ In this project, we will record those specific changes or activities and just st
 
 ## Data
 #### Use sequeces of frames streamed by CCTV
-* [human-and-car-cross-the-train] (https://github.com/ThuraTunScibotics/smart-CCTV/tree/main/video-data/GroundtruthSeq/RawImages)
-* [car-people-on-the-road-campus] (https://github.com/ThuraTunScibotics/smart-CCTV/tree/main/video-data/Campus)
-* [shopping-mall] (https://github.com/ThuraTunScibotics/smart-CCTV/tree/main/video-data/ShoppingMall_resized)
+* [human-and-car-cross-the-train](https://github.com/ThuraTunScibotics/smart-CCTV/tree/main/video-data/GroundtruthSeq/RawImages)
+* [car-people-on-the-road-campus](https://github.com/ThuraTunScibotics/smart-CCTV/tree/main/video-data/Campus)
+* [shopping-mall](https://github.com/ThuraTunScibotics/smart-CCTV/tree/main/video-data/ShoppingMall_resized)
 
 ## Packages Requirements
 
