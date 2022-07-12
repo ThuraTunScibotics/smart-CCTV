@@ -15,9 +15,9 @@ In this project, we will record those specific changes or activities and just st
 ## Packages Requirements
 
 
-## System Design
+## Algorithms of the system
 
-## Run & Demo
+## Step-by-step & Demo
 
 ## Future Work
 
