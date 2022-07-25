@@ -28,9 +28,9 @@ pip install cvlib
 2. Denoising using Morphology operation with OpenCV
 3. Extract Connected Components using OpenCV
 4. Take object detection on frame-with-changes
-5. Save these changes frame and object detected frames using cvlib library
    (cvlib uses YOLOv3 model trained on COCO dataset capable of detecting 80 common objects in context)
-6. Display and view these saved changes-frames
+6. Save these changes frame and object detected frames using cvlib library
+7. Display and view these saved changes-frames
 
 ## Step-by-step & Demo
 
