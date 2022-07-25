@@ -23,14 +23,14 @@ conda install jupyter python opencv matplotlib numpy
 pip install cvlib
 ```
 ## Algorithms of the system
-1- Background Subtraction for foreground image by using Gaussian mixture based background/foreground subtraction function
+1. Background Subtraction for foreground image by using Gaussian mixture based background/foreground subtraction function
    (Background-subtraction is better than frame-diferencing for better estimation of changes)
-2- Denoising using Morphology operation with OpenCV
-3- Extract Connected Components using OpenCV
-4- Take object detection on frame-with-changes
-5- Save these changes frame and object detected frames using cvlib library
+2. Denoising using Morphology operation with OpenCV
+3. Extract Connected Components using OpenCV
+4. Take object detection on frame-with-changes
+5. Save these changes frame and object detected frames using cvlib library
    (Underneath it uses YOLOv3 model trained on COCO dataset capable of detecting 80 common objects in context)
-6- Display and view these saved changes-frames
+6. Display and view these saved changes-frames
 
 ## Step-by-step & Demo
 
