@@ -35,26 +35,25 @@ pip install cvlib
 ## Demo & Step-by-step
 
 **Here is the comparison of *input frame* and the *final resultant output frame* by saving just significant chages with image processing and computer vision algorithm and apply YOLOv3 object detection to the frame.**
-<img src="https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-data/input-train-cross.gif" height="50%" width="50%">
-<img src="https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-frame-changes-videos/train-cross.gif" height="50%" width="50%">
+<img src="https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-data/input-train-cross.gif" height="50%" width="50%">    <img src="https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-frame-changes-videos/train-cross.gif" height="50%" width="50%">
 
 The following outputs are the results of each step:
 
 **Original input frame**
 
-![Demo](https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-data/input-train-cross.gif)
+<img src="https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-data/input-train-cross.gif" height="50%" width="50%">
 
 Step-1: After **subtracting background for foreground image** frame having with noise
-![Demo](https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-data/noise-result.gif)
+<img src="https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-data/noise-result.gif" height="50%" width="50%">
 
 Step-2: After **denoising** nioses from frame
-![Demo](https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-data/denoised-result.gif)
+<img src="https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-data/denoised-result.gif" height="50%" width="50%">
 
 Step-3: After **extracting only connected components/features** from the frame
-![Demo](https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-data/component-seq1.gif)
+<img src="https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-data/component-seq1.gif" height="50%" width="50%">
 
 Step-4: After **taking object detection and saving frames-with-changes**
-![Demo](https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-frame-changes-videos/train-cross.gif)
+<img src="https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-frame-changes-videos/train-cross.gif" height="50%" width="50%">
 
 ## Future Work
 
