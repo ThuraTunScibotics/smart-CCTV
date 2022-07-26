@@ -35,7 +35,7 @@ pip install cvlib
 ## Demo & Step-by-step
 
 **Here is the comparison of *input frame [left]* and the *final resultant output frame [right]*, achieved by saving just significant chages from the input frame with image processing and computer vision algorithm and apply YOLOv3 object detection to the frame. This can save alot CCTV storage and make more smarter.**
-<img src="https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-data/input-train-cross.gif" height="40%" width="40%">                          <img src="https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-frame-changes-videos/train-cross.gif" height="40%" width="40%">
+<img src="https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-data/input-train-cross.gif" height="40%" width="40%">                 <img src="https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-frame-changes-videos/train-cross.gif" height="40%" width="40%">
 
 
 The following outputs are the results of each step:
