@@ -33,6 +33,17 @@ pip install cvlib
 7. Display and view these saved changes-frames
 
 ## Step-by-step & Demo
+Step-1: Original input frame
+![Demo](https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-data/input-train-cross.gif)
+
+Step-2: After *subtracting background for foreground image*, frame having with noise
+![Demo](https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-data/noise-result.gif)
+
+Step-3: After *denoising* nioses from frame
+![Demo](https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-data/denoised-result.gif)
+
+Step-4: After *extracting only connected components/features* from the frame
+![Demo](https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-data/component-seq1.gif)
 
 ## Future Work
 
