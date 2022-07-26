@@ -33,10 +33,13 @@ pip install cvlib
 7. Display and view these saved changes-frames
 
 ## Demo & Step-by-step
+
 **Here is the comparison of *input frame* and the *final resultant output frame* by saving just significant chages with image processing and computer vision algorithm and apply YOLOv3 object detection to the frame.**
-![Input](https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-data/input-train-cross.gif)     ![Output](https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-frame-changes-videos/train-cross.gif)
+<img src="https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-data/input-train-cross.gif" height="50%" width="50%">
+<img src="https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-frame-changes-videos/train-cross.gif" height="50%" width="50%">
 
 The following outputs are the results of each step:
+
 **Original input frame**
 
 ![Demo](https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-data/input-train-cross.gif)
