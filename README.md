@@ -32,8 +32,13 @@ pip install cvlib
 6. Save these changes frame and object detected frames using cvlib library
 7. Display and view these saved changes-frames
 
-## Step-by-step & Demo
+## Demo & Step-by-step
+**Here is the comparison of *input frame* and the *final resultant output frame* by saving just significant chages with image processing and computer vision algorithm and apply YOLOv3 object detection to the frame.**
+![Input](https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-data/input-train-cross.gif)     ![Output](https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-frame-changes-videos/train-cross.gif)
+
+The following outputs are the results of each step:
 **Original input frame**
+
 ![Demo](https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-data/input-train-cross.gif)
 
 Step-1: After **subtracting background for foreground image** frame having with noise
