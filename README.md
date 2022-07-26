@@ -26,24 +26,27 @@ pip install cvlib
 1. Background Subtraction for foreground image by using Gaussian mixture based background/foreground subtraction function
    (Background-subtraction is better than frame-diferencing for better estimation of changes)
 2. Denoising using Morphology operation with OpenCV
-3. Extract Connected Components using OpenCV
+3. Extract Connected Components using OpenCV, and that components are frame-with-changes
 4. Take object detection on frame-with-changes
    (cvlib uses YOLOv3 model trained on COCO dataset capable of detecting 80 common objects in context)
 6. Save these changes frame and object detected frames using cvlib library
 7. Display and view these saved changes-frames
 
 ## Step-by-step & Demo
-Step-1: Original input frame
+**Original input frame**
 ![Demo](https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-data/input-train-cross.gif)
 
-Step-2: After *subtracting background for foreground image*, frame having with noise
+Step-1: After **subtracting background for foreground image** frame having with noise
 ![Demo](https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-data/noise-result.gif)
 
-Step-3: After *denoising* nioses from frame
+Step-2: After **denoising** nioses from frame
 ![Demo](https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-data/denoised-result.gif)
 
-Step-4: After *extracting only connected components/features* from the frame
+Step-3: After **extracting only connected components/features** from the frame
 ![Demo](https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-data/component-seq1.gif)
+
+Step-4: After **taking object detection and saving frames-with-changes**
+![Demo](https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-frame-changes-videos/train-cross.gif)
 
 ## Future Work
 
