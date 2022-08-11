@@ -13,11 +13,58 @@ In this project, we will record those specific changes or activities and just st
 * [shopping-mall](https://github.com/ThuraTunScibotics/smart-CCTV/tree/main/video-data/ShoppingMall_resized)
 
 ## Packages Requirements
+Check the package manager, [conda](https://docs.conda.io/projects/conda/en/latest/index.html) which will be required to install required libraries & packages under specific virtual environment.
+Install anaconda on your machine, and run the following cell on terminal/command prompt after installed.
+```
+conda create -n SmartCCTV
 
+conda install jupyter python opencv matplotlib numpy
 
+pip install cvlib
+```
 ## Algorithms of the system
+1. Background Subtraction for foreground image by using Gaussian mixture based background/foreground subtraction function
+   (Background-subtraction is better than frame-diferencing for better estimation of changes)
+2. Denoising using Morphology operation with OpenCV
+3. Extract Connected Components using OpenCV, and that components are frame-with-changes
+4. Take object detection on frame-with-changes
+   (cvlib uses YOLOv3 model trained on COCO dataset capable of detecting 80 common objects in context)
+6. Save these changes frame and object detected frames using cvlib library
+7. Display and view these saved changes-frames
 
-## Step-by-step & Demo
+## Demo & Step-by-step
+
+**Here is the comparison of *input frame [left]* and the *final resultant output frame [right]*, achieved by saving just significant chages/activities from the input frame with image processing and computer vision algorithms and applying YOLOv3 object detection to the frame. This can save alot CCTV storage and make CCTV more smarter by detecting what objects are in the frame.**
+
+<img src="https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-data/input-train-cross.gif" height="40%" width="45%">    <img src="https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-frame-changes-videos/train-cross.gif" height="40%" width="45%">
+
+
+The following outputs are the results of each step:
+
+**Original input frame**
+
+<img src="https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-data/input-train-cross.gif" height="50%" width="50%">
+
+
+Step-1: After **subtracting background for foreground image** frame having with noise
+
+<img src="https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-data/noise-result.gif" height="50%" width="50%">
+
+
+Step-2: After **denoising** nioses from frame
+
+<img src="https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-data/denoised-result.gif" height="50%" width="50%">
+
+
+Step-3: After **extracting only connected components/features** from the frame
+
+<img src="https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-data/component-seq1.gif" height="50%" width="50%">
+
+
+Step-4: After **taking object detection and saving frames-with-changes**
+
+<img src="https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-frame-changes-videos/train-cross.gif" height="50%" width="50%">
+
 
 ## Future Work
 
