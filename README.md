@@ -46,14 +46,14 @@ The following outputs are the results of each step:
 <img src="https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-data/input-train-cross.gif" height="50%" width="50%">
 
 
-Step-1: After **subtracting background for foreground image** frame having with noise
+Step-1: After **subtracting background for foreground image**, frame having noises
 
 <img src="https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-data/noise-result.gif" height="50%" width="50%">
 
 
 Step-2: After **denoising** nioses from frame
 
-<img src="https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-data/denoised-result.gif" height="50%" width="50%">
+<img src="https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-data/denoised-train-cross.gif" height="50%" width="50%">
 
 
 Step-3: After **extracting only connected components/features** from the frame
@@ -61,7 +61,7 @@ Step-3: After **extracting only connected components/features** from the frame
 <img src="https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-data/component-seq1.gif" height="50%" width="50%">
 
 
-Step-4: After **taking object detection and saving frames-with-changes**
+Step-4: After **applying object detection and saving frames-with-changes**
 
 <img src="https://github.com/ThuraTunScibotics/smart-CCTV/blob/main/resultant-frame-changes-videos/train-cross.gif" height="50%" width="50%">
 
