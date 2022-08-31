@@ -67,6 +67,5 @@ Step-4: After **applying object detection and saving frames-with-changes**
 
 
 ## Future Work
-
-## References
+*Activity Recognition* - To implement activity recognition for the activities happening in the video frame to be more smarter AI based CCTV.
 
